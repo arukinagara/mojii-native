@@ -8,14 +8,14 @@ import * as firebase from 'firebase';
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDRLV4X3930ux9V6wHi_RjOn7uX9dA4fnQ",
-  authDomain: "mojii-285301.firebaseapp.com",
-  databaseURL: "https://mojii-285301.firebaseio.com",
-  projectId: "mojii-285301",
-  storageBucket: "mojii-285301.appspot.com",
-  messagingSenderId: "722958223243",
-  appId: "1:722958223243:web:d33e24c2410677970cd18e",
-  measurementId: "G-CM2Y5MS97W",
+  apiKey: "<apiKey>",
+  authDomain: "<authDomain>",
+  databaseURL: "<databaseURL>",
+  projectId: "<projectId>",
+  storageBucket: "<storageBucket>",
+  messagingSenderId: "<messagingSenderId>",
+  appId: "<appId>",
+  measurementId: "<measurementId>",
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
